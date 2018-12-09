@@ -1,0 +1,74 @@
+body {
+    background: url("KDvNGWD.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    font-family: "Lato","Geneva CY","Lucida Grande","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+}
+.header{
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(45, 95, 45);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.headerimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.makeNewActivity{
+    padding: 3px;
+    height: 30px;
+    width:600px;
+    border-radius: 5px;
+    background-color: rgb(45, 95, 45);
+    color: rgb(182, 157, 124); 
+}
+.todo{
+    margin: 3px;
+}
+.list{
+    margin: 5px;
+    padding: 2px;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 99, 68); 
+    background-color: rgb(45, 95, 45);
+    justify-content: left;
+    color: rgb(182, 157, 124); 
+    align-items: center;
+    display: flex;
+
+}
+.delete{
+    left: 50px;
+    height: 20px;
+}
+.lists{
+    display: flex;
+    align-items: row;
+
+}
+.second_list{
+    margin-left: 150px;
+}
+.done_list{
+    background-color: #fff;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+
+}
+.done{
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    background-color: red;
+}
